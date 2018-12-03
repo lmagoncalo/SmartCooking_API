@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7bae852c3b7ff11a9fe11e01e59fdc987993ba15c5672fd3a3257a32a2dfc1eb"
+            "sha256": "30c635416a5660fb488407ca155ee38569f1cc1eee85d0f125ff23ec14986038"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,9 +18,9 @@
     "default": {
         "alembic": {
             "hashes": [
-                "sha256:4b6ff7433247fe80b6ef522ef3763acb959cbdef027d03f76f4cd3c7118c1872"
+                "sha256:e9ffdece0eece55f4108b14b6b0f29ffc730d58e28446a434fe41a1cc5c5f266"
             ],
-            "version": "==1.0.3"
+            "version": "==1.0.5"
         },
         "bcrypt": {
             "hashes": [
@@ -122,11 +122,11 @@
         },
         "flask-migrate": {
             "hashes": [
-                "sha256:a25b3d2d2bb0f0724f104afbadae888a4b942e7221b451f720c69698d4863da7",
-                "sha256:cb7d7b37feb68e3a8769aaf7a3954ecbdcd9bdeef8f21cede9eaa07c813f8af9"
+                "sha256:0c42c34357b24faac63bc6e7af028c8614235f5210eded53802ced450c5392c2",
+                "sha256:8356fa6a02694da34e78da1e38cf91c944b219f4bd4b89493a3b261a305994ab"
             ],
             "index": "pypi",
-            "version": "==2.3.0"
+            "version": "==2.3.1"
         },
         "flask-script": {
             "hashes": [
@@ -242,17 +242,18 @@
         },
         "pycparser": {
             "hashes": [
-                "sha256:ecc18db17b458a27680f80614147c93bd941e479d666b415536698a6cff3f151"
+                "sha256:a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3"
             ],
+            "index": "pypi",
             "version": "==2.19"
         },
         "pyjwt": {
             "hashes": [
-                "sha256:30b1380ff43b55441283cc2b2676b755cca45693ae3097325dea01f3d110628c",
-                "sha256:4ee413b357d53fd3fb44704577afac88e72e878716116270d722723d65b42176"
+                "sha256:00414bfef802aaecd8cc0d5258b6cb87bd8f553c2986c2c5f29b19dd5633aeb7",
+                "sha256:ddec8409c57e9d371c6006e388f91daf3b0b43bdf9fcbf99451fb7cf5ce0a86d"
             ],
             "index": "pypi",
-            "version": "==1.6.4"
+            "version": "==1.7.0"
         },
         "python-dateutil": {
             "hashes": [
