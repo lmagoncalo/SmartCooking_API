@@ -11,7 +11,7 @@ class RelationsModel(db.Model):
   __tablename__ = 'Relations'
 
 
-  id_relacao = db.Column(db.Integer, primary_key=True)
+  id_relation = db.Column(db.Integer, primary_key=True)
   id_recipe = db.Column(db.Integer, db.ForeignKey('Recipes.id'), nullable=False)
   id_ingredient = db.Column(db.Integer, db.ForeignKey('Ingredients.id'), nullable=False)
 
